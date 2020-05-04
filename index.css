@@ -1,0 +1,19 @@
+@media (max-width: 575.98px) { 
+	body {
+		background-color: #EEEEEE;
+	}
+
+	#hello {
+		margin-left: 40px;
+		margin-top: 50px;
+		font-family: 'Quicksand', sans-serif;
+		font-size: 30px;
+	}
+
+	#nama {
+		font-family: 'Oxygen', sans-serif;
+		font-size: 40px;
+		margin-top: -10px;
+		margin-left: 40px;
+	}
+}
