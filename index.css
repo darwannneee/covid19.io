@@ -25,7 +25,7 @@
 	#positif {
 		width: 310px;
 		height: 205px;
-		background-color: #2F05A7;
+		background-color: #ceb546;
 		border: none;
 		border-radius: 20px 20px 20px 20px;
 	}
@@ -33,9 +33,18 @@
 	#meninggal {
 		width: 310px;
 		height: 205px;
-		background-color: #FF0000;
+		background-color: #ec6f58;
 		border: none;
 		border-radius: 20px 20px 20px 20px;
-		float: left;
+		
+	}
+
+	#sembuh {
+		width: 310px;
+		height: 205px;
+		background-color: #3c928c;
+		border: none;
+		border-radius: 20px 20px 20px 20px;
+		
 	}
 }
