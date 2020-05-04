@@ -47,4 +47,28 @@
 		border-radius: 20px 20px 20px 20px;
 		
 	}
+
+	.img {
+		margin-left: 20px;
+		margin-top: 60px;
+		width: 80px;
+		height: 80px;
+	}
+
+	.kata {
+		margin-left: 110px;
+		margin-top: -90px;
+	}
+
+	.judul {
+		font-family: 'Open Sans', sans-serif;
+		font-size: 25px;
+		color: white;
+	}
+	.isi {
+		margin-top: -30px;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 50px;
+		color: white;
+	}
 }
