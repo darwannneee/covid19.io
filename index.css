@@ -16,4 +16,26 @@
 		margin-top: -10px;
 		margin-left: 40px;
 	}
+	
+	.negara {
+		margin-left: 30px;
+		margin-top: 20px;
+	}
+
+	#positif {
+		width: 310px;
+		height: 205px;
+		background-color: #2F05A7;
+		border: none;
+		border-radius: 20px 20px 20px 20px;
+	}
+
+	#meninggal {
+		width: 310px;
+		height: 205px;
+		background-color: #FF0000;
+		border: none;
+		border-radius: 20px 20px 20px 20px;
+		float: left;
+	}
 }
