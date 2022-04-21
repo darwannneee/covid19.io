@@ -1,6 +1,6 @@
 <?php 
 
-$url = file_get_contents('https://api.kawalcorona.com/indonesia/');
+$url = file_get_contents('https://data.covid19.go.id/public/api/update.json');
 $data = json_decode($url, true);
 
 ?>
@@ -44,7 +44,7 @@ $data = json_decode($url, true);
         </div>
         <div class="col-6 kata">
           <p class="judul">Positif <span id="terjangkit"></span></p>
-          <p class="isi"><?php  echo $data[0]['positif'] ?></p>
+          <p class="isi"><?php  echo $data[0]['jumlah_positif'] ?></p>
         </div>
       </div>
     </div>
@@ -55,7 +55,7 @@ $data = json_decode($url, true);
         </div>
         <div class="col-6 kata">
           <p class="judul">Sembuh</p>
-          <p class="isi"><?php  echo $data[0]['sembuh'] ?></p>
+          <p class="isi"><?php  echo $data['update']['sembuh'] ?></p>
         </div>
       </div>
     </div>
